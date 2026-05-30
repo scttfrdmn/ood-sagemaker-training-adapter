@@ -1,5 +1,11 @@
 # ood-sagemaker-training-adapter
 
+[![CI](https://github.com/scttfrdmn/ood-sagemaker-training-adapter/actions/workflows/ci.yml/badge.svg)](https://github.com/scttfrdmn/ood-sagemaker-training-adapter/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/scttfrdmn/ood-sagemaker-training-adapter)](https://goreportcard.com/report/github.com/scttfrdmn/ood-sagemaker-training-adapter)
+[![codecov](https://codecov.io/gh/scttfrdmn/ood-sagemaker-training-adapter/branch/main/graph/badge.svg)](https://codecov.io/gh/scttfrdmn/ood-sagemaker-training-adapter)
+[![Go Reference](https://pkg.go.dev/badge/github.com/scttfrdmn/ood-sagemaker-training-adapter.svg)](https://pkg.go.dev/github.com/scttfrdmn/ood-sagemaker-training-adapter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 An [Open OnDemand](https://openondemand.org/) compute adapter that translates OOD job submissions into [AWS SageMaker Training Jobs](https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-training.html).
 
 > **Distinct from `ood-sagemaker-adapter`** — that adapter targets SageMaker Studio apps (interactive sessions). This adapter targets batch training workloads via the SageMaker Training Jobs API.
