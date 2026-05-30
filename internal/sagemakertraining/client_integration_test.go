@@ -42,8 +42,8 @@ func TestCreateDescribeStopTrainingJob_Substrate(t *testing.T) {
 		VolumeSizeGB:   30,
 		Walltime:       "02:00:00",
 		Hyperparameters: map[string]string{
-			"epochs":    "10",
-			"lr":        "0.001",
+			"epochs": "10",
+			"lr":     "0.001",
 		},
 	}
 
