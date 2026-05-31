@@ -10,7 +10,10 @@ var (
 	outputS3 string
 )
 
+var version = "dev" // overridden at release time via -ldflags -X .../cmd.version
+
 var rootCmd = &cobra.Command{
+	Version: version,
 	Use:   "ood-sagemaker-training-adapter",
 	Short: "OOD compute adapter for AWS SageMaker Training Jobs",
 	Long:  "Translates Open OnDemand job submissions to AWS SageMaker Training Jobs API calls.",
