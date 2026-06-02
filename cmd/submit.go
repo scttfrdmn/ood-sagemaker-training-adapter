@@ -62,7 +62,7 @@ var submitCmd = &cobra.Command{
 		}
 
 		ctx := context.Background()
-		client, err := sagemakertraining.New(ctx, region)
+		client, err := sagemakertraining.New(ctx, region, awsOptions(ctx)...)
 		if err != nil {
 			return err
 		}
