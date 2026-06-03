@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.13
 	github.com/aws/aws-sdk-go-v2/service/sagemaker v1.238.0
 	github.com/aws/aws-sdk-go-v2/service/sts v1.41.10
-	github.com/scttfrdmn/substrate v0.65.0
+	github.com/scttfrdmn/substrate v0.67.0
 	github.com/spf13/cobra v1.10.2
 )
 
